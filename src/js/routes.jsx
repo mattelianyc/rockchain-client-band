@@ -26,7 +26,6 @@ const HeaderWithRouter = withRouter((props) => <Header {...props} />)
 module.exports = (
   <div className={styles.container}>
     <HeaderWithRouter />
-    <hr />
     <div className={styles.content}>
       <Switch>
         <Route exact path="/" component={LandingRouteHandler} />

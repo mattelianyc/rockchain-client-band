@@ -3,8 +3,9 @@
     list-style: none;
     margin-left: -40px;
     margin-top: 10px;
+    text-align: center;
     li {
-      float: left;
+      display: inline-flex;
       margin-right: 10px;
       font-size: 15px;
       border-bottom: 3px solid #fff;
